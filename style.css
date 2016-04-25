@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'monofonto';
+    src: url('monofonto-webfont.eot');
+    src: url('monofonto-webfont.eot?#iefix') format('embedded-opentype'),
+         url('monofonto-webfont.woff2') format('woff2'),
+         url('monofonto-webfont.woff') format('woff'),
+         url('monofonto-webfont.ttf') format('truetype'),
+         url('monofonto-webfont.svg#monofonto') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family: monofonto;
+	color: #1bcb7a;
+	background-color: black;
+	text-shadow:0px 1px 1px #00FF00;
+}
+#scanlines {
+	pointer-events: none;
+	position: absolute;
+	background-image: url("scanlines.png");
+	width: 748px;
+	height: 500px;
+	z-index: 999;
+	margin-top: 77px;
+	margin-left: 58px;
+}
+#wrapper {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 863px;
+	height: 720px;
+	background: url("terminaali.gif")no-repeat;
+}
+#header {
+	position: absolute;
+	width: 680px;
+	margin-top: 70px;
+	margin-left: 90px;
+	text-align: center;
+}
+#header  h1{
+	font-size: 18px;
+}
+hr {
+	color: #1bcb7a;
+	background-color: #1bcb7a;	
+	height: 3px;
+	border: 0;
+	outline: 0;
+	box-shadow: 0px 0px 3px #00FF00;
+}
+#main {
+	position: absolute;
+	width: 480px;
+	height: 360px;
+	margin-top: 175px;
+	margin-left: 280px;
+	color: #1bcb7a;
+}
+#menu {
+	font-family: monofonto;
+	position: absolute;
+	width: 180;
+	height: 360px;
+	margin-top: 190px;
+	margin-left: 50px;
+	font-size: 24px;
+}
+ul {
+	font-family: monofonto;
+	list-style: none;
+	display: inline-block; 
+}
+li {width: 100%; vertical-align: middle;}
+li a:hover { 
+	cursor: pointer;
+	background-color: #1bcb7a;
+	color: #000;
+}
+	li a { 
+		font-family: monofonto;
+		text-decoration: none;
+		display: block; 
+		text-align:	left; 
+		color: #1bcb7a;
+	}
+#console {
+	padding: 3px;
+	position: absolute;
+	width: 680px;
+	height: 50px;
+	margin-top: 520px;
+	margin-left: 90px;
+}
+.divider {
+	position: absolute;
+	margin-top: 515px;
+	margin-left: 90px;
+    width:680px;
+    text-align:center;
+}
+.divider hr {
+    margin-left:auto;
+    margin-right:auto;
+    width:42%;
+}
+.left {
+	width: 50px;
+    float:left;
+}
+.right {
+    float:right;
+}
+
+input {
+	width: 500px;
+	height: 50px;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	color: #1bcb7a;
+	font-family: monofonto;
+	font-size: 16px;
+	text-shadow:0px 1px 1px #00FF00;
+}
+  .typewriter {
+    white-space: pre-wrap;
+    margin-right: -6px;
+  }
+
+  .caret {
+    background: #1bcb7a;
+  }
+
+#teksti {
+	margin-top: 30px;
+}
+#teksti a {
+	box-shadow: 0px 0px 2px #00FF00;
+	text-decoration: none;
+	padding: 1px;
+	border: solid 2px;
+	color: #1bcb7a;
+}
+#teksti h1 {
+	font-size: 18px;
+}

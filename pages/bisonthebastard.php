@@ -1,0 +1,107 @@
+<div id="teksti"> 
+<style>
+#teksti {
+	margin-top: 0px;
+	font-size: 10px;
+}
+</style>
+  <span id="typewriter" class="typewriter"></span>
+  <span class="caret"></span>
+<script type="text/javascript" src="build/typewriter-bundle.js"></script>
+
+<script type="text/javascript">
+  var typewriter = require('typewriter');
+
+  var twSpan = document.getElementById('typewriter');
+
+  var tw = typewriter(twSpan).withAccuracy(100)
+                             .withMinimumSpeed(90)
+                             .withMaximumSpeed(100)
+                             .build();
+  tw.put('')
+    .waitRange(0, 100)
+	.type('Bison: After 2238 went dark - Bacon, Decall, and I played on Xbox for years')
+	.put ('<br/>')
+		.waitRange(200,300)
+	.type('Bison: But i fucked up and made bacon mad by mistake :(')
+	.put ('<br/>')
+		.waitRange(200,300)
+	.type('Gargantua: Haha')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: how did you do that?')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: He showed me a pic of him and this girl')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: I thought it was a joke...')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: I said, shes a pig')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: LOL oh shit!')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: I know the photo...')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: Then he said it was his misses')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: so bad lol...')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Ansh: lol')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: I was like Oh shit')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: I thought he was joking, i really did')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: it was really bad LOL.')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: I can see that')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: Yeah poor bastard')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: its like one of those terrible internet memes')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: He said to me after')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: " Yeah i aint no looker"')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: I was like Indeed')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: LOL')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: LOL')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: Bison the Bastard! That will be your legends title!')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: Fuck i know')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Gargantua: LOLOL')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Ansh: this is so funny xDD')
+	.put ('<br/>')
+		.waitRange(200,300)
+		.type('Bison: Khans always getting into trouble')
+	.put('');
+</script>
+</div>
